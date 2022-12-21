@@ -28,7 +28,7 @@ local games = {
             " "
                 ..
 
-                        Gamename.. "!" .. " Ponkeyz]"  .."\n Loadded Successfully Ponkey Hub"
+                        Gamename.. "" .. " "  .."\n Loadded Successfully Ponkey Hub"
             )
     end
 }
