@@ -1,3 +1,22 @@
+repeat wait(1) until game:IsLoaded()
+
+
+wait(1.1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Ponkey Hub", 
+    Text = "Check Key"
+})
+
+wait(4.4)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Ponkey Hub", 
+    Text = "Done"
+})
+
 xwd = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 Gamename = xwd.Name
 local games = {
